@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "name": "Sunset Story",
+  "story": "A lonely stickman sits on a sunset hill and watches the last light. He slowly stands and takes a breath. He walks down the empty road toward the city lights. He reaches the city with hope.",
+  "scenes": [
+    {
+      "scene_id": "sample-01",
+      "name": "Alone at sunset",
+      "description": "A lonely stickman sits on a sunset hill and watches the last light.",
+      "duration": 3.0,
+      "environment": "sunset_hill",
+      "pose": "sitting",
+      "emotion": "lonely",
+      "movement": "idle",
+      "character_x": 0.5,
+      "camera_zoom": 1.0,
+      "camera_pan": 0.0,
+      "transition": "fade",
+      "lighting": "sunset"
+    },
+    {
+      "scene_id": "sample-02",
+      "name": "Standing in the last light",
+      "description": "He slowly stands and takes a breath.",
+      "duration": 2.0,
+      "environment": "sunset_hill",
+      "pose": "standing",
+      "emotion": "determined",
+      "movement": "idle",
+      "character_x": 0.5,
+      "camera_zoom": 1.0,
+      "camera_pan": 0.0,
+      "transition": "crossfade",
+      "lighting": "sunset"
+    },
+    {
+      "scene_id": "sample-03",
+      "name": "Down the empty road",
+      "description": "He walks down the empty road toward the city lights.",
+      "duration": 3.5,
+      "environment": "empty_road",
+      "pose": "walking",
+      "emotion": "determined",
+      "movement": "walk",
+      "character_x": 0.5,
+      "camera_zoom": 1.0,
+      "camera_pan": 0.0,
+      "transition": "crossfade",
+      "lighting": "night"
+    },
+    {
+      "scene_id": "sample-04",
+      "name": "City lights",
+      "description": "He reaches the city with hope.",
+      "duration": 3.0,
+      "environment": "city_street",
+      "pose": "standing",
+      "emotion": "hopeful",
+      "movement": "idle",
+      "character_x": 0.5,
+      "camera_zoom": 1.0,
+      "camera_pan": 0.0,
+      "transition": "crossfade",
+      "lighting": "night"
+    }
+  ],
+  "audio_path": "",
+  "width": 360,
+  "height": 640,
+  "fps": 12
+}
